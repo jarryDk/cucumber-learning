@@ -9,7 +9,7 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("hellocucumber")
+@SelectClasspathResource("cucumber-learning")
 @ConfigurationParameter( //
 		key = PLUGIN_PROPERTY_NAME, //
 		value = "pretty,json:target/cucumber.json,html:target/cucumber-reports.html,rerun:target/rerun.txt")
